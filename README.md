@@ -2,7 +2,7 @@
 
 Página desenvolvida para a disciplina de Desenvolvimento Front-end para Web, com HTML5 semântico e formulário acessível sobre um roteiro de viagens. Inclui destinos visitados, uma dica em destaque e um formulário para sugerir novos destinos, com labels corretamente associados e validação nativa do HTML5. Estruturado com Git/GitHub seguindo o fluxo de branches e Pull Requests.
 
-Dei uma olhada no projeto e o formulário e a parte de semântica já tão bem legais. Só achei umas coisinhas pra ajustar:
+## Dei uma olhada no projeto e o formulário e a parte de semântica já tão bem legais. Só achei umas coisinhas pra ajustar:
 
 Aula 2:
 - Tem uma imagem (viagem.jpg) que não existe na pasta assets/images, então dá 404. Deve ter esquecido de subir ela.
