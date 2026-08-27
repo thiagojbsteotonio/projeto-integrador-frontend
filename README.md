@@ -1,6 +1,54 @@
 # Roteiro de Viagens — Projeto Integrador
 
-Página desenvolvida para a disciplina de Desenvolvimento Front-end para Web, com HTML5 semântico e formulário acessível sobre um roteiro de viagens. Inclui destinos visitados, uma dica em destaque e um formulário para sugerir novos destinos, com labels corretamente associados e validação nativa do HTML5. Estruturado com Git/GitHub seguindo o fluxo de branches e Pull Requests.
+Projeto desenvolvido para a disciplina de **Desenvolvimento Front-end para Web**, com o objetivo de colocar em prática conceitos de HTML5, HTML semântico, acessibilidade, formulários, tabelas e elementos multimídia.
+
+## Sobre o projeto
+
+O **Roteiro de Viagens** é uma página web criada para apresentar diferentes destinos turísticos de forma simples e organizada. A página reúne informações sobre **Lisboa, Kyoto e Cartagena**, acompanhadas de imagens, avaliações e uma dica de viagem. Também foi desenvolvido um formulário que permite ao usuário sugerir novos destinos, trabalhando conceitos de interação e estruturação de dados em páginas web.O projeto busca demonstrar não apenas a construção visual de uma página, mas também a utilização correta dos elementos HTML de acordo com sua função, priorizando uma estrutura semântica e acessível.
+
+## Tecnologias
+
+* HTML5
+* CSS3
+* JavaScript
+* Git e GitHub
+
+## Semântica e acessibilidade
+
+Foram utilizados elementos como `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` e `<footer>`, além de `<label>`, `<fieldset>` e `<legend>` no formulário. As imagens também possuem textos alternativos.
+
+## Estrutura
+
+```text id="x6f2k1"
+assets/
+├── images/
+└── videos/
+css/
+└── style.css
+js/
+└── main.js
+index.html
+README.md
+```
+
+## Como executar
+
+Clone o repositório:
+
+```bash id="e4xq7p"
+git clone https://github.com/thiagojbsteotonio/projeto-integrador-frontend.git
+```
+
+Depois, abra o `index.html` no navegador ou utilize o **Live Server** no VS Code.
+
+## Versionamento
+
+O desenvolvimento utiliza **Git e GitHub**, com commits, branches e Pull Requests para organização e controle das alterações.
+
+## Autor
+
+**Thiago Teotônio** — Projeto desenvolvido para fins acadêmicos.
+
 
 -- Dei uma olhada no projeto e o formulário e a parte de semântica já tão bem legais. Só achei umas coisinhas pra ajustar:
 
