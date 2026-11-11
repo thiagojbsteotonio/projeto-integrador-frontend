@@ -13,6 +13,7 @@
     <nav>
       <ul>
         <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#video">Vídeo</a></li>
         <li><a href="#dica">Dica de Viagem</a></li>
         <li><a href="#sugestao">Sugerir Destino</a></li>
       </ul>
@@ -24,28 +25,49 @@
     <section id="destinos">
       <h2>Destinos Visitados</h2>
 
-      <article>
-        <h3>Lisboa, Portugal</h3>
-        <img src="assets/images/lisboa.jpg" alt="Vista de Lisboa com seus prédios históricos e bondes amarelos">
-        <p>Cidade histórica com bondes amarelos, miradouros e pastéis de nata em cada esquina.</p>
-        <video class="video-lisboa" width="400" controls>
-          <source src="assets/videos/video-lisboa-projeto.mp4" type="video/mp4">
-          Seu navegador não suporta a reprodução de vídeo.
-        </video>
-        <p><a href="https://pt.wikipedia.org/wiki/Lisboa" target="_blank" rel="noopener noreferrer">Saiba mais sobre Lisboa (abre em nova aba)</a></p>
-      </article>
+      <div class="grade-destinos">
+        <article class="card-destino" data-cidade="Lisboa" data-pais="Portugal" data-nota="9">
+          <h3>Lisboa, Portugal</h3>
+          <img src="assets/images/lisboa.jpg" alt="Vista de Lisboa com seus prédios históricos e bondes amarelos">
+          <p>Cidade histórica com bondes amarelos, miradouros e pastéis de nata em cada esquina.</p>
+          <p><a href="https://pt.wikipedia.org/wiki/Lisboa" target="_blank" rel="noopener noreferrer">Saiba mais sobre Lisboa (abre em nova aba)</a></p>
+        </article>
 
-      <article>
-        <h3>Kyoto, Japão</h3>
-        <img src="assets/images/kyoto.jpg" alt="Templo tradicional cercado por árvores em Kyoto">
-        <p>Templos milenares, jardins de bambu e a tradição do chá em meio à cidade moderna.</p>
-      </article>
+        <article class="card-destino" data-cidade="Kyoto" data-pais="Japão" data-nota="10">
+          <h3>Kyoto, Japão</h3>
+          <img src="assets/images/kyoto.jpg" alt="Templo tradicional cercado por árvores em Kyoto">
+          <p>Templos milenares, jardins de bambu e a tradição do chá em meio à cidade moderna.</p>
+          <p><a href="https://pt.wikipedia.org/wiki/Quioto" target="_blank" rel="noopener noreferrer">Saiba mais sobre Kyoto (abre em nova aba)</a></p>
+        </article>
 
-      <article>
-        <h3>Cartagena, Colômbia</h3>
-        <img class="imagem-cartagena" src="assets/images/cartagena.webp" alt="Rua colorida do centro histórico de Cartagena">
-        <p>Centro histórico colorido às margens do Caribe, cheio de música e boa comida.</p>
-      </article>
+        <article class="card-destino" data-cidade="Cartagena" data-pais="Colômbia" data-nota="8">
+          <h3>Cartagena, Colômbia</h3>
+          <img class="imagem-cartagena" src="assets/images/cartagena.webp" alt="Rua colorida do centro histórico de Cartagena">
+          <p>Centro histórico colorido às margens do Caribe, cheio de música e boa comida.</p>
+          <p><a href="https://pt.wikipedia.org/wiki/Cartagena_das_Índias" target="_blank" rel="noopener noreferrer">Saiba mais sobre Cartagena (abre em nova aba)</a></p>
+        </article>
+
+        <article class="card-destino" data-cidade="Paris" data-pais="França" data-nota="9">
+          <h3>Paris, França</h3>
+          <img src="assets/images/paris.jpg" alt="Torre Eiffel vista de uma rua de Paris">
+          <p>Museus, cafés e avenidas elegantes, com a Torre Eiffel aparecendo a cada esquina.</p>
+          <p><a href="https://pt.wikipedia.org/wiki/Paris" target="_blank" rel="noopener noreferrer">Saiba mais sobre Paris (abre em nova aba)</a></p>
+        </article>
+
+        <article class="card-destino" data-cidade="Roma" data-pais="Itália" data-nota="8">
+          <h3>Roma, Itália</h3>
+          <img src="assets/images/roma.jpg" alt="Coliseu de Roma ao entardecer">
+          <p>Ruínas milenares, praças cheias de vida e massas que valem a viagem.</p>
+          <p><a href="https://pt.wikipedia.org/wiki/Roma" target="_blank" rel="noopener noreferrer">Saiba mais sobre Roma (abre em nova aba)</a></p>
+        </article>
+
+        <article class="card-destino" data-cidade="Rio de Janeiro" data-pais="Brasil" data-nota="10">
+          <h3>Rio de Janeiro, Brasil</h3>
+          <img src="assets/images/rio-de-janeiro.jpg" alt="Vista do Pão de Açúcar e da Baía de Guanabara no Rio de Janeiro">
+          <p>Praias, montanhas dentro da cidade e uma vista diferente a cada curva.</p>
+          <p><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro" target="_blank" rel="noopener noreferrer">Saiba mais sobre o Rio de Janeiro (abre em nova aba)</a></p>
+        </article>
+      </div>
       
       <table>
         <caption>Resumo das Avaliações</caption>
@@ -65,16 +87,46 @@
           <td>Cartagena, Colômbia</td>
           <td>8</td>
         </tr>
+        <tr>
+          <td>Paris, França</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Roma, Itália</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro, Brasil</td>
+          <td>10</td>
+        </tr>
       </table>
     
     </section>
 
-    <aside>
-      <h2>Dica de Viagem</h2>
-      <p id="dica">Sempre reserve pelo menos um dia livre sem roteiro fixo — os melhores achados de viagem costumam ser imprevistos.</p>
+    <section id="video">
+      <h2>Nossas Viagens em Vídeo</h2>
+      <figure>
+        <video class="video-roteiro" controls>
+          <source src="assets/videos/video-viagem.mp4" type="video/mp4">
+          Seu navegador não suporta a reprodução de vídeo.
+        </video>
+        <figcaption>Um pouco do clima dos destinos do nosso roteiro.</figcaption>
+      </figure>
+    </section>
 
-      <img src="assets/images/viagem-aeroporto.jpg" alt="Mala de viagem aberta sobre uma cama, pronta para uma próxima jornada">
-    </aside>
+    <aside id="dica">
+  <h2>Dicas de Viagem</h2>
+  <p>Algumas coisas que valem a pena lembrar antes de fechar a mala e sair para o próximo destino.</p>
+  <div class="conteudo-dicas">
+    <ul class="lista-dicas">
+      <li><strong>Deixe um dia livre.</strong> Reserve pelo menos um dia sem roteiro fixo: os melhores achados de viagem costumam ser imprevistos.</li>
+      <li><strong>Chegue cedo aos pontos turísticos.</strong> Há menos fila, menos calor e a luz é melhor para as fotos.</li>
+      <li><strong>Baixe mapas offline.</strong> Eles continuam funcionando quando o sinal de internet some.</li>
+      <li><strong>Peça o prato típico.</strong> Perguntar o que os moradores comem costuma render as melhores refeições da viagem.</li>
+      <li><strong>Guarde cópias dos documentos.</strong> Uma foto no celular e outra na nuvem evitam muita dor de cabeça.</li>
+    </ul>
+  </div>
+</aside>
 
     <section id="sugestao">
       <h2>Sugerir um Destino</h2>
