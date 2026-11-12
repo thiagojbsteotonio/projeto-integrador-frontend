@@ -77,7 +77,7 @@ Itens apontados no feedback acima e o que foi feito:
 
 **Aula 3**
 - [x] **Pull Request da branch `feature/html-semantica-formulario`:** aberto e mesclado no PR #5.
-- [ ] **Conferência no DevTools (aba Accessibility):** confirmar que nenhum campo aparece como `role generic`.
+- [x] **Conferência no DevTools (aba Accessibility):** confirmar que nenhum campo aparece como `role generic`.
 
 ## Atualizações do projeto
 
