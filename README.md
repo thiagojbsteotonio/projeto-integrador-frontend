@@ -63,3 +63,27 @@ Aula 3:
 
 O formulário e o fieldset/legend ficaram ótimos, sinceramente! No geral tá bem encaminhado, só esses ajustes que faltam!
 Avaliado por Débora Lima, 27/08/2026 as 18:06.
+
+---
+
+## Correções realizadas após a avaliação
+
+Itens apontados no feedback acima e o que foi feito:
+
+**Aula 2**
+- [x] **Imagem `viagem.jpg` com erro 404:** o HTML não usa mais essa imagem. A seção de dicas foi reformulada em formato de lista, então não há mais requisição quebrada.
+- [x] **Nomes das fotos bagunçados:** os arquivos foram renomeados para `lisboa.jpg`, `kyoto.jpg` e `cartagena.webp`, tudo em minúsculo e sem extensão repetida. O vídeo também foi padronizado como `video-viagem.mp4`.
+- [x] **Link externo com `target="_blank"`:** cada destino agora tem um link "Saiba mais" para a Wikipédia, com `target="_blank"` e `rel="noopener noreferrer"`.
+
+**Aula 3**
+- [x] **Pull Request da branch `feature/html-semantica-formulario`:** aberto e mesclado no PR #5.
+- [ ] **Conferência no DevTools (aba Accessibility):** confirmar que nenhum campo aparece como `role generic`.
+
+## Atualizações do projeto
+
+- **CSS:** tema azul escuro com variáveis CSS, layout geral com Grid, grade de cards responsiva com `auto-fit`/`minmax`, menu fixo com Flexbox, estados de `:hover` e `:focus-visible` e ajuste para telas estreitas (PR #6).
+- **JavaScript:** classificação de cada destino pela nota, painel de resumo calculado com `map`, `filter` e `reduce`, e validação simples do formulário de sugestão (PR #6).
+- **Novos destinos:** Paris, Roma e Rio de Janeiro, totalizando seis cards, cada um com link "Saiba mais".
+- **Seção de vídeo própria:** o vídeo saiu do card de Lisboa e ganhou a seção "Nossas Viagens em Vídeo" (PR #8).
+- **Dicas de viagem:** a seção foi ampliada, de uma dica para uma lista de cinco.
+- **Revisão:** a avaliação do colega foi registrada nas issues do repositório.
